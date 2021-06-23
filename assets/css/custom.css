@@ -1,0 +1,204 @@
+body {
+  padding-top: 4rem;
+}
+
+input[type="text"], textarea {
+  outline: none;
+  box-shadow:none !important;
+  border:1px solid #ccc !important;
+}
+
+.fs11 { font-size: 11px; }
+.fs12 { font-size: 12px; }
+.fs14 { font-size: 14px; }
+.fs16 { font-size: 16px; }
+.fs18 { font-size: 18px; }
+.fs20 { font-size: 20px; }
+.fs23 { font-size: 34px; }
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron.table-title {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.full-width-home-bg {
+  background: url("../images/full-width-home-bg.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.black-shadow {
+  text-shadow: 1px 1px #000;
+}
+
+.progress {
+  height: 2rem;
+}
+
+.player_face,
+.face_clone {
+  height: 180px;
+  width: 120px;
+}
+.player_face.sm,
+.face_clone.sm {
+  height: 140px;
+  width: 80px;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar .nav-item.dropdown .dropdown-menu {
+    max-height: 200px;
+    overflow-y: scroll
+  }
+  .navbar .account.nav-item.dropdown .dropdown-menu {
+    max-height: 150px;
+    overflow-y: scroll
+  }
+}
+
+#teamScheduleTabs li a.active {
+  background: #6c757d !important;
+}
+
+.btn-soft {
+  background: #EAEAEA;
+  border: 1px solid #CCCCCC;
+}
+
+.btn-soft:hover {
+  background: #007bff;
+  border: 1px solid #007bff;
+  color: #FFFFFF;
+}
+
+.soft-warning {
+  background: #ffeeba;
+}
+
+.patron-btn {
+  -moz-box-align: center;
+  align-items: center;
+  backface-visibility: hidden;
+  background-color: rgb(232, 91, 70);
+  border: 1px solid rgb(232, 91, 70);
+  box-sizing: border-box;
+  color: rgb(255, 255, 255) !important;
+  cursor: pointer;
+  font-weight: 500;
+  height: unset;
+  -moz-box-pack: center;
+  justify-content: center;
+  padding: 0.46875rem 1rem;
+  position: relative;
+  pointer-events: unset;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  user-select: none;
+  white-space: unset;
+}
+
+.patreon-bg {
+  background-color: #e85b46;
+}
+
+.discord-btn {
+  -moz-box-align: center;
+  align-items: center;
+  backface-visibility: hidden;
+  background-color: #7289DA;
+  border: 1px solid #7289DA;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: 500;
+  height: unset;
+  -moz-box-pack: center;
+  justify-content: center;
+  padding: 0.46875rem 1rem;
+  position: relative;
+  pointer-events: unset;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  user-select: none;
+  white-space: unset;
+}
+
+.discord-btn:hover {
+  color: #FFFFFF;
+}
+
+.discord-bg {
+  background-color: #7289DA;
+}
+
+.text-discord,
+.text-discord:hover {
+  color: #7289DA;
+}
+
+#subNav {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+#playerListModal ul.playerContainer {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+li.player-list,
+#playerListModal .playerLogin {
+  cursor: pointer;
+}
+
+ul.no-hover .list-group-item:hover {
+  background: inherit;
+}

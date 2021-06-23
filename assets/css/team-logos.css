@@ -1,0 +1,152 @@
+.team-logo {
+  width: 75px;
+  height: 75px;
+  line-height: 62px;
+}
+
+.team-logo.medium {
+  width: 46px;
+  height: 46px;
+  line-height: 34px;
+}
+
+.team-logo.inline {
+  display: block;
+  float: left;
+  font-size: 12px;
+}
+
+.team-logo span {
+  display: inline-block;
+  line-height: normal;
+}
+
+@media (max-width: 600px) {
+  .team-logo.medium {
+    line-height: 35px;
+  }
+  .team-logo.fs18 {
+    line-height: 63px;
+  }
+}
+
+.team-logo.ARI {
+  background: #A71930;
+  border: 4px solid #E3D4AD;
+}
+.team-logo.ATL {
+  background: #CE1141;
+  border: 4px solid #13274F;
+}
+.team-logo.BAL {
+  background: #DF4601;
+  border: 4px solid #000000;
+}
+.team-logo.BOS {
+  background: #BD3039;
+  border: 4px solid #0C2340;
+}
+.team-logo.CHL {
+  background: #0E3386;
+  border: 4px solid #CC3433;
+}
+.team-logo.CHP {
+  background: #27251F;
+  border: 4px solid #C4CED4;
+}
+.team-logo.CIN {
+  background: #C6011F;
+  border: 4px solid #000000;
+}
+.team-logo.CLE {
+  background: #0C2340;
+  border: 4px solid #E31937;
+}
+.team-logo.COL {
+  background: #33006F;
+  border: 4px solid #000000;
+}
+.team-logo.DET {
+  background: #0C2340;
+  border: 4px solid #FA4616;
+}
+.team-logo.HOU {
+  background: #002D62;
+  border: 4px solid #EB6E1F;
+}
+.team-logo.KC {
+  background: #004687;
+  border: 4px solid #BD9B60;
+}
+.team-logo.LAB {
+  background: #005A9C;
+  border: 4px solid #EF3E42;
+}
+.team-logo.LAH {
+  background: #BA0021;
+  border: 4px solid #003263;
+}
+.team-logo.MIA {
+  background: #00A3E0;
+  border: 4px solid #EF3340;
+}
+.team-logo.MIL {
+  background: #0a2351;
+  border: 4px solid #B6922E;
+}
+.team-logo.MIN {
+  background: #002B5C;
+  border: 4px solid #D31145;
+}
+.team-logo.NYL {
+  background: #002D72;
+  border: 4px solid #FF5910;
+}
+.team-logo.NYP {
+  background: #0C2340;
+  border: 4px solid #E4002C;
+}
+.team-logo.OAK {
+  background: #003831;
+  border: 4px solid #EFB21E;
+}
+.team-logo.PHI {
+  background: #E81828;
+  border: 4px solid #002d72;
+}
+.team-logo.PIT {
+  background: #27251F;
+  border: 4px solid #FDB827;
+}
+.team-logo.SD {
+  background: #2F241D;
+  border: 4px solid #FFC425;
+}
+.team-logo.SF {
+  background: #FD5A1E;
+  border: 4px solid #27251F;
+}
+.team-logo.SEA {
+  background: #0C2C56;
+  border: 4px solid #005C5C;
+}
+.team-logo.STL {
+  background: #C41E3A;
+  border: 4px solid #0C2340;
+}
+.team-logo.TAM {
+  background: #092C5C;
+  border: 4px solid #8FBCE6;
+}
+.team-logo.TEX {
+  background: #003278;
+  border: 4px solid #C0111F;
+}
+.team-logo.TOR {
+  background: #134A8E;
+  border: 4px solid #1D2D5C;
+}
+.team-logo.WAS {
+  background: #AB0003;
+  border: 4px solid #14225A;
+}
