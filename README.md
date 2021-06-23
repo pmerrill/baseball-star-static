@@ -1,2 +1,2 @@
-# baseball-star-static
-Static site for Baseball Star
+# Baseball Star
+Bye.
